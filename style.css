@@ -54,3 +54,79 @@
 html {
   font-size: 10px;
 }
+
+/* header */
+
+.header-container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background: white;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.menu-btn {
+  padding: 5px;
+  border: 0;
+  background: none;
+}
+
+header .menu-btn:nth-child(2) {
+  margin: 0 20px 0 10px;
+}
+
+.icon {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: center no-repeat;
+  background-size: cover;
+}
+
+.i-menu {
+  background-image: url(./images/menu.svg);
+}
+
+.i-search {
+  background-image: url(./images/magnify.svg);
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.section-link {
+  font-family: fantasy;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+
+.btn {
+  height: 32px;
+  padding: 0 10px;
+  font-family: franklin;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.1rem;
+  background: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  border-radius: 3px;
+  color: white;
+}
+
+header .btn:last-child {
+  margin-left: 10px;
+}
