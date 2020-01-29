@@ -211,6 +211,7 @@ article {
   color: rgb(49, 49, 49);
 }
 
+.article-footer-options,
 .article-options {
   display: flex;
   align-items: center;
@@ -272,6 +273,7 @@ button {
 
 /* article-post */
 
+.article-footer,
 .article-post {
   width: 1200px;
   display: grid;
@@ -281,6 +283,7 @@ button {
     minmax(200px, 1fr);
 }
 
+.article-footer > *,
 .article-post > * {
   grid-column: 2 / span 1;
 }
@@ -499,4 +502,22 @@ button {
 .full-width {
   grid-column: 1 / -1;
   padding: 0px 24rem;
+}
+
+/* footer */
+
+.article-footer {
+  row-gap: 2rem;
+  margin-bottom: 2rem;
+  font-family: franklin;
+  font-size: 1.2rem;
+  color: rgb(102, 102, 102);
+}
+
+.article-about * {
+  color: inherit;
+}
+
+.read-comments {
+  width: 55%;
 }
