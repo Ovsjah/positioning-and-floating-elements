@@ -591,3 +591,99 @@ aside {
   font-size: 1rem;
   color: rgb(50, 104, 145);
 }
+
+/* more option */
+.more-section {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: minmax(800px, 2fr) minmax(300px, 0.5fr);
+  gap: 3rem;
+  font-family: franklin;
+}
+
+.more-section img {
+  width: 100%;
+}
+
+.bottom-editors-picks,
+.similar-articles {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(270px, 1fr));
+  gap: 2rem;
+}
+
+.bottom-editors-picks h2,
+.similar-articles h2 {
+  grid-column: 1 / -1;
+  font-size: 1.6rem;
+}
+
+.most-popular h2,
+.bottom-editors-picks h2 {
+  font-size: 1.6rem;
+  color: rgb(51, 51, 51);
+}
+
+.most-popular {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.more-left-side,
+.more-right-side,
+.bottom-editors-picks {
+  padding-top: 1.5rem;
+  border-top: 1px solid black;
+}
+
+.bottom-editors-picks {
+  margin-top: 3rem;
+}
+
+.more-section figcaption {
+  display: flex;
+  padding-right: 1rem;
+  flex-direction: column;
+  font-family: cheltenham;
+}
+
+.more-section figcaption .article-author {
+  align-self: flex-end;
+  font-size: 1rem;
+  padding: 0.5rem 0 0.5rem 0;
+  min-height: 2rem;
+  color: rgb(153, 153, 153);
+}
+
+.more-section figcaption a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: rgb(17, 34, 17);
+}
+
+.more-section figcaption time {
+  padding-top: 0.5rem;
+  color: rgb(153, 153, 153);
+  font-size: 1.2rem;
+  font-family: franklin;
+}
+
+.most-popular h2 {
+  padding-bottom: 0.5rem;
+}
+
+.most-popular h3 {
+  padding-top: 1.5rem;
+  margin-top: 1.5rem;
+  font-family: cheltenham;
+  font-size: 1.9rem;
+  font-weight: 500;
+  color: rgb(18, 18, 18);
+  border-top: 1px solid rgb(192, 192, 192);
+}
+
+.most-popular h3 a {
+  text-decoration: none;
+  color: inherit;
+}
