@@ -798,3 +798,42 @@ aside {
   font-size: 1.1rem;
   color: rgb(102, 102, 102);
 }
+
+/* annoying-bar */
+
+.annoying-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  height: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-family: franklin;
+  background-color: #fff;
+  border-top: 1px solid #000;
+}
+
+.annoying-bar a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.annoying-bar button {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 20%;
+}
+
+.annoying-bar button span {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.annoying-bar button svg {
+  margin-left: 4rem;
+  transform: rotate(-90deg);
+}
